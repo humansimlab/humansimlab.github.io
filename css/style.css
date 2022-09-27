@@ -24,9 +24,9 @@ html, body {
 }
 header {
     position: fixed;
-    left: 0px;
+    left: 30px;
+    right: 30px;
     top: 0px;
-    width: 100%;
     display: flex;
     justify-content: center;
     background: white;
@@ -40,7 +40,7 @@ header > div {
     width: 100%;
     max-width: 1200px;
     display: flex;
-    padding: 20px 10px;
+    padding: 20px 0px;
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.4rem;
@@ -81,7 +81,7 @@ section > img {
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 800px) {
     html, body {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .content-container {
